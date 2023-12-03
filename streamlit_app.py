@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 from google.cloud import firestore
 
+st.write("DB username:", st.secrets["db_username"])
+st.write("DB password:", st.secrets["db_password"])
+
 from google.oauth2 import service_account
 import json
 key_dict = json.loads(st.secrets["textkey"])
