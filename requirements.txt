@@ -1,3 +1,5 @@
 streamlit
 google-cloud-firestore
-matplotlib
+matplotlib.pyplot
+json
+pandas
