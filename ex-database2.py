@@ -8,4 +8,4 @@ db = firestore.client()
 import seaborn as sns
 df = sns.load_dataset("penguins")
 for index, row in df.iterrows():
-    db.collection("penguins").add(row.to_dict)
+    db.collection("penguins").add(row.to_dict())
